@@ -2,7 +2,7 @@
 
 Easy access to I2C devices.
 
-It was designed for the Raspberry Pi, but may work on different boards, too.
+It was designed for the Raspberry Pi (on top of the `i2c_dev` kernel module), but may work on different boards, too.
 
 TypeScript definitions are included.
 
