@@ -1,0 +1,14 @@
+{
+  "name": "2wire",
+  "version": "0.0.0",
+  "description": "Easy access to I2C devices",
+  "repository": "https://github.com/xThunderbolt/2wire",
+  "license": "MIT",
+  "main": "index.js",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "1.3.0",
+    "nan": "2.8.0",
+    "nan-check": "0.0.6"
+  }
+}
