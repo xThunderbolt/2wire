@@ -366,7 +366,7 @@ NAN_METHOD(TwiDevice_Wrap::readBits) {
 		if (!Nan::Check(info).ArgumentsCount(3)
 			.Argument(0).Bind(reg)
 			.Argument(1).Bind(bitStart)
-			.Argument(1).Bind(length)
+			.Argument(2).Bind(length)
 			.Error(&error))
 		{
 			return Nan::ThrowSyntaxError(error.c_str());

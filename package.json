@@ -1,6 +1,6 @@
 {
   "name": "2wire",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy access to I2C devices",
   "repository": "https://github.com/xThunderbolt/2wire",
   "license": "MIT",
